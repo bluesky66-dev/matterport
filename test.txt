@@ -1,0 +1,8 @@
+				  method: "POST",
+				  url: "http://localhost:7003/some1.php",
+				  data: { url: e, location: "Boston" }
+				})
+				  .done(function( msg ) {
+				  });
+                    return this.baseUrl.replace("{{filename}}", e)
+                }
